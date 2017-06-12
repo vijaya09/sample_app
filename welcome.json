@@ -1,0 +1,21 @@
+var jsonData = {
+"success": true,
+"counters": [
+    {
+        "id": "1",
+        "name": "Akhil",
+        "age": "22"
+    },
+    {
+        "id": "2",
+        "name": "Dave",
+        "age": "33"
+    },
+    {
+        "id": "3",
+        "name": "Chitrank",
+        "age": "24"
+    }
+
+    ]
+}

@@ -3,25 +3,28 @@
 <head>
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+   <script type="text/javascript" src="node_modules/handlebars/dist/handlebars.min.js"></script>
    <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-   <link rel="stylesheet" href="styles/style.css">
+   <link rel="stylesheet" href="app/styles/style.css">
 </head>
 <body>
  <div class="container" id="first_div">
    <div class="row" id="first_div">
      <div class="col-md-12">
-       <form action="sql.php" method="post">
-          First name:<br>
-          <input type="text" name="firstname">
-          <br>
-          Last name:<br>
-          <input type="text" name="lastname">
-          <input id="submit" type="submit" name="Submit" value="Submit">
+       <form>
+         <div id="form">
+           <label>First name: </label>
+           <input type="text" name="firstname">
+           <br>
+           <label>Last name: </label>
+           <input type="text" name="lastname"><br>
+           <input id="submit" type="submit" name="Submit" value="Submit">
+         </div>
         </form>
      </div>
    </div>
  </div>
- <script type="text/javascript" src="js/index.js"></script>
+ <script type="text/javascript" src="app/js/index.js"></script>
 </body>
 </html>
